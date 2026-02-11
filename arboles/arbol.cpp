@@ -53,12 +53,18 @@ void Arbol::Insertar(char v) {
 Nodo* Arbol::insertar(Nodo* r, char v) {
     if (r == NULL)
         return new Nodo(v);
-    if (v < r->valor)
+
+    if (v < r->valor) {
         r->izq = insertar(r->izq, v);
-    else if (v >= r->valor)
+    }
+    else if (v > r->valor) {
         r->der = insertar(r->der, v);
-    else
+    }
+    else {
+        // v == r->valor
         r->contador++;
+    }
+
     return r;
 }
 
