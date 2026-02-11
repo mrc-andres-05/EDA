@@ -1,0 +1,9 @@
+1|brayan|calderon|huanca|987412563|sadfasdf|ddfghhd
+2|yeferson|miranda|yosec|asdf|asdf|asdf
+3|daniel|apaza|sucapuca|fda|fda|fda
+4|marco|follano|mamani|984564321|assdffddfd|sdasdf
+5|jhon|coaquira|huanca|987412563|sadfasdf|ddfghhd
+10|evelyn|curo|yahuno|587412369|asdf|asdfddf
+20|fernando|menendez|copari|987412563|sadfasdf|ddfghhd
+21|william|vargas|coa|965874123|asdfdcv|xcvbcv
+22|jenifer|follano|mamani|954123658,963587421|circunvalacion|jenifer@gmail.com
