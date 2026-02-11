@@ -3,7 +3,6 @@
 #include <cmath>
 using namespace std;
 
-
 class Nodo {
 public:
     char valor;
@@ -17,7 +16,6 @@ public:
         der = NULL;
     }
 };
-
 
 class Arbol {
 public:
@@ -45,7 +43,6 @@ private:
     Nodo* encontrarMinimo(Nodo*);
 };
 
-// insertar
 void Arbol::Insertar(char v) {
     raiz = insertar(raiz, v);
 }
@@ -68,7 +65,6 @@ Nodo* Arbol::insertar(Nodo* r, char v) {
     return r;
 }
 
-//altura
 int Arbol::altura(Nodo* r) {
     if (r == NULL)
         return 0;
@@ -77,7 +73,6 @@ int Arbol::altura(Nodo* r) {
     return 1 + (altIzq > altDer ? altIzq : altDer);
 }
 
-//imprimir
 void Arbol::ImprimirGrafico() {
     if (raiz == NULL) {
         cout << "Arbol vacio\n";
@@ -312,52 +307,3 @@ int main() {
 
     return 0;
 }
-
-/*int main() {
-    Arbol a;
-
-    cout << "===== ARBOL BINARIO DE BUSQUEDA =====\n\n";
-
-    string texto;
-    cout << "Ingresa un texto: ";
-    getline(cin, texto);
-
-    cout << "\nInsertando letras...\n";
-    for (int i = 0; i < texto.length(); i++) {
-        if (texto[i] != ' ') {
-            a.Insertar(texto[i]);
-        }
-    }
-
-    cout << "\n===== ARBOL INICIAL =====";
-    a.ImprimirGrafico();
-
-    cout << "\n===== RECORRIDOS =====\n";
-    a.Preorden();
-    a.Inorden();
-    a.Posorden();
-
-    char buscarLetra;
-    cout << "\nIngresa una letra a buscar: ";
-    cin >> buscarLetra;
-
-    if (a.Buscar(buscarLetra))
-        cout << "La letra '" << buscarLetra << "' se encuentra en el arbol.\n";
-    else
-        cout << "La letra '" << buscarLetra << "' no se encuentra en el arbol.\n";
-
-    char eliminarLetra;
-    cout << "\nIngresa una letra a eliminar: ";
-    cin >> eliminarLetra;
-    a.Eliminar(eliminarLetra);
-
-    cout << "\n===== ARBOL DESPUES DE ELIMINAR =====";
-    a.ImprimirGrafico();
-
-    cout << "\n===== RECORRIDOS =====\n";
-    a.Preorden();
-    a.Inorden();
-    a.Posorden();
-
-    return 0;
-}*/
