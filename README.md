@@ -1,4 +1,9 @@
-# IMAGENES
+# JUEGO LUCES
+<img width="1915" height="893" alt="Captura de pantalla 2026-02-11 125943" src="https://github.com/user-attachments/assets/17032b96-6bcc-4345-bb2f-74a8da980077" />
+<img width="1913" height="906" alt="Captura de pantalla 2026-02-11 125907" src="https://github.com/user-attachments/assets/c1818e37-16ff-481c-9bcc-bd33553769fc" />
+<img width="1913" height="907" alt="Captura de pantalla 2026-02-11 130124" src="https://github.com/user-attachments/assets/40844bbb-6299-4af2-84fd-07e6430481af" />
+<img width="1285" height="437" alt="Captura de pantalla 2026-02-11 130102" src="https://github.com/user-attachments/assets/c6a3e759-1f5c-486e-9df1-045c86ff40cd" />
+<img width="1916" height="897" alt="Captura de pantalla 2026-02-11 130006" src="https://github.com/user-attachments/assets/887a5a49-be48-40a0-a03a-23a14c17c8b0" />
 
 # AGENDA
 <img width="301" height="766" alt="Captura de pantalla 2026-02-11 024639" src="https://github.com/user-attachments/assets/6f1c5d25-2948-4a95-b38a-6a9d434dd1df" />
